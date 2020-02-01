@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_margin="20dp"
+    android:orientation="horizontal"
+    android:weightSum="1.0">
+    <Button
+        android:id="@+id/boton1"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:layout_width="0dip"
+        android:text="Botón 1"
+        android:layout_marginRight="5dp"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/boton2"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:layout_width="0dip"
+        android:text="Botón 2"
+        android:layout_marginRight="5dp"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/boton3"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:text="Botón 3"
+        android:layout_width="0dip"
+        android:layout_marginRight="5dp"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/boton4"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:text="Botón 4"
+        android:layout_marginRight="5dp"
+        android:layout_width="0dip"
+        android:textSize="12sp" />
+</LinearLayout>

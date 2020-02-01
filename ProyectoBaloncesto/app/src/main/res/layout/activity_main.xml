@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cancha2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textEquipo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorFondo"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtMarcRight"
+        app:layout_constraintTop_toBottomOf="@+id/btnRein" />
+
+    <Button
+        android:id="@+id/btnRightBajar1"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="169dp"
+        android:drawableLeft="@drawable/baseline_arrow_drop_down_black_18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRightSubir1" />
+
+    <Button
+        android:id="@+id/btnRightSubir1"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="169dp"
+        android:drawableLeft="@drawable/baseline_arrow_drop_up_black_18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLeftBajar1"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/baseline_arrow_drop_down_black_18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeftSubir1" />
+
+    <TextView
+        android:id="@+id/txtMarcRight"
+        android:layout_width="117dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorFondo"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorMarcador"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnRightBajar1"
+        app:layout_constraintTop_toBottomOf="@+id/btnRein" />
+
+    <Button
+        android:id="@+id/btn1right"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/balon2"
+        android:text="+1"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarcRight" />
+
+    <Button
+        android:id="@+id/btn1left"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/balon2"
+        android:text="+1"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn1right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarcLeft" />
+
+    <Button
+        android:id="@+id/btn2right"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/balon2"
+        android:text="+2"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn3right"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarcRight" />
+
+    <Button
+        android:id="@+id/btn2left"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/balon2"
+        android:text="+2"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn2right"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarcLeft" />
+
+    <Button
+        android:id="@+id/btn3right"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/balon2"
+        android:text="+3"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnRein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="299dp"
+        android:layout_marginTop="6dp"
+        android:text="Reiniciar Partido"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMarcLeft"
+        android:layout_width="117dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorFondo"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorMarcador"
+        android:textSize="60dp"
+        app:layout_constraintStart_toEndOf="@+id/btnLeftBajar1"
+        app:layout_constraintTop_toBottomOf="@+id/btnRein" />
+
+    <Button
+        android:id="@+id/btn3left"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/balon2"
+        android:text="+3"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn2left"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLeftSubir1"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="94dp"
+        android:drawableLeft="@drawable/baseline_arrow_drop_up_black_18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textEquipo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/colorFondo"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtMarcLeft"
+        app:layout_constraintStart_toStartOf="@+id/txtMarcLeft" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

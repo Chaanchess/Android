@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:text="Celda 0"
+
+        />
+
+    <TextView
+        android:text="Celda 1"
+        android:paddingLeft="20pt"
+        />
+
+    <TextView
+        android:text="Celda 2"
+        android:paddingTop="20pt"
+        />
+    <TextView
+        android:text="Celda 3"
+        android:paddingLeft="20pt"
+        />
+
+    <Button
+        android:text="Ok">
+
+    </Button>
+
+
+</GridLayout>
