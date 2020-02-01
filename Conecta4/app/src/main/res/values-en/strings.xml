@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conecta4</string>
+    <string name="comparte">Share</string>
+    <string name="gana">The winner is </string>
+    <string name="juegayDiviertete">Play and have fun with this game</string>
+    <string name="noFichas">No more tokens allowed here</string>
+    <string name="option_about">About...</string>
+    <string name="option_mensaje">Share</string>
+    <string name="option_preferencias">Preferences</string>
+</resources>

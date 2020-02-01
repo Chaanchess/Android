@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Conecta4</string>
+    <string name="option_about">Acerca de...</string>
+    <string name="option_mensaje">Compartir</string>
+    <string name="option_preferencias">Preferencias</string>
+    <string name="noFichas">Ya no caben más fichas en esta columna</string>
+    <string name="gana">Ha ganado el jugador </string>
+    <string name="juegayDiviertete">Juega y diviértete en este conecta 4.</string>
+    <string name="comparte">Compartir</string>
+    <string-array name="players">
+        <item>Humano</item>
+        <item>Máquina</item>
+    </string-array>
+
+    <string-array name="playersValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
